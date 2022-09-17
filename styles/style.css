@@ -1,0 +1,110 @@
+/* ----------------------- */
+/* Reset                   */
+/* ----------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Set up the body */
+body {
+  line-height: 1.3;
+  min-height: 100vh;
+  letter-spacing: .2px;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remote animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* =========
+Typography
+========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9375rem;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  background: hsl(212, 45%, 89%);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  color: hsl(218, 44%, 22%);
+}
+
+/* =========
+Layout
+========= */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 320px;
+  padding: 15px;
+  border-radius: 15px;
+  background: white;
+  margin: 0 15px;
+}
+
+.card-image {
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 1em .6em;
+  margin-top: .8em;
+}
+
+.card-body {
+  margin: 1em 0 .5em;
+}
