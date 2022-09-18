@@ -63,4 +63,4 @@ I want to start using Grid in new projects to practice all the awesome features 
 
 ## Acknowledgments
 
-I've been able to learn HTML and CSS at a pace I didn't think possile thanks to Scrimba: https://scrimba.com
+I've been able to learn HTML and CSS at a pace I didn't think possile thanks to Scrimba: <https://scrimba.com>
